@@ -110,8 +110,8 @@ function copyOrigin() {
     })
 }
 
-//cleanBasePath();
-//copyOrigin();
+cleanBasePath();
+copyOrigin();
 pushRelease()
 
 function pushRelease() {
