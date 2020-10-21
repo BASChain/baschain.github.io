@@ -1,0 +1,26 @@
+{
+  "name": "baschain.github.io",
+  "version": "2.7.11",
+  "description": "Baschain site",
+  "main": "ci/index.js",
+  "scripts": {
+    "publish": "node ci/publish.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BASChain/baschain.github.io.git"
+  },
+  "author": "VNI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BASChain/baschain.github.io/issues"
+  },
+  "homepage": "https://github.com/BASChain/baschain.github.io#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "fast-date-format": "^2.2.4",
+    "fs-extra": "^9.0.1",
+    "shelljs": "^0.8.4"
+  }
+}
